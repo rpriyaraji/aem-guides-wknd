@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<w2dIO>
+    <!-- This configuration supports multiple input/output directory combinations.This can be acheived by creating several other 'config' elements  as the default one shown below. To avoid data loss while upgrading build, it is recommended to create a duplicate config file with the same folder hierarchy under apps and modify that instead of modifying this file.-->
+    <config>
+        <inputDir>/content/dam/sap/wordfiles</inputDir><!-- All the files uploaded to this directory will ungergo transformation -->
+        <outputDir>/content/dam/sap/w2d</outputDir><!-- Output files will be uploaded in this directory -->
+        <createRev>true</createRev><!-- If set to true and the output file already exists, a revision of the file is created.  -->
+        <s2tMap>/apps/fmdita/word2dita/word-builtin-styles-style2tagmap.xml</s2tMap><!-- The path of the style2tag map file to be used for word2dita conversion  -->
+		<props2Propagate>dc:title,dc:subject,dam:keywords,dam:category</props2Propagate><!-- The properties that we need to pass on the DITAMap  -->
+    </config>
+</w2dIO>
