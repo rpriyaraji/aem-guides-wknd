@@ -88,6 +88,9 @@
                             <generateJavaClasses>true</generateJavaClasses>
                             <generatedJavaClassesPrefix>org.apache.sling.scripting.sightly</generatedJavaClassesPrefix>
                             <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
+                            <excludes>
+                                <exclude>apps/fmdita/word2dita/xsl/w2d/xsl/font2*Maps/*.html</exclude>
+                            </excludes>
                             <allowedExpressionOptions>
                                 <allowedExpressionOption>cssClassName</allowedExpressionOption>
                                 <allowedExpressionOption>decoration</allowedExpressionOption>
