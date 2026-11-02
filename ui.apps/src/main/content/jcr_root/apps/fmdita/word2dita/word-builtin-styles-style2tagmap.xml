@@ -115,9 +115,9 @@
                       topicZone="body"
                       level="1"/>
 
+      <!-- Guides builds lists from Word numbering after the XSL transformation. -->
       <paragraphStyle styleName="List Bullet"
-                      containerType="ul"
-                      tagName="li"
+                      tagName="p"
                       level="1"
                       structureType="block"
                       topicZone="body"/>
@@ -130,9 +130,8 @@
                       topicZone="body"
                       level="1"/>
       <paragraphStyle styleName="List Bullet 2"
-                      containerType="ul"
-                      tagName="li"
-                      level="2"
+                      tagName="p"
+                      level="1"
                       structureType="block"
                       topicZone="body"/>
       <paragraphStyle styleName="Block Text"
@@ -147,15 +146,13 @@
                       topicZone="body"
                       level="1"/>
       <paragraphStyle styleName="List Number"
-                      containerType="ol"
-                      tagName="li"
+                      tagName="p"
                       level="1"
                       structureType="block"
                       topicZone="body"/>
       <paragraphStyle styleName="List Number 2"
-                      containerType="ol"
-                      tagName="li"
-                      level="2"
+                      tagName="p"
+                      level="1"
                       structureType="block"
                       topicZone="body"/>
     
