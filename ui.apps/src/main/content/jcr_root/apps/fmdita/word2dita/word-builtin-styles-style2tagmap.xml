@@ -32,6 +32,40 @@
          <mapProperties format="bookmap" prologType="topicmeta" tagName="title"/>
       </paragraphStyle>
 
+      <paragraphStyle styleName="Privacy Statement Title"
+                      level="1"
+                      structureType="mapTitle"
+                      secondStructureType="topicTitle"
+                      tagName="title"
+                      topicZone="body">
+         <mapProperties format="bookmap" prologType="topicmeta" tagName="title"/>
+         <topicrefProperties topicrefType="chapter"/>
+         <topicProperties topicDoc="yes"
+                          topicType="concept"
+                          bodyType="conbody"
+                          format="concept"/>
+      </paragraphStyle>
+
+      <paragraphStyle styleName="Privacy Section"
+                      structureType="section"
+                      tagName="title"
+                      topicZone="body"
+                      level="1"
+                      outputclass="privacy-heading-1"/>
+
+      <paragraphStyle styleName="Privacy Subsection"
+                      structureType="section"
+                      tagName="title"
+                      topicZone="body"
+                      level="1"
+                      outputclass="privacy-heading-2"/>
+
+      <paragraphStyle styleName="Privacy Detail Heading"
+                      structureType="section"
+                      tagName="title"
+                      topicZone="body"
+                      level="1"
+                      outputclass="privacy-heading-3"/>
 
       <paragraphStyle styleName="Heading 1"
                       structureType="topicTitle"
@@ -62,6 +96,18 @@
                       tagName="title"
                       topicZone="body"
                       level="3">
+         <topicrefProperties topicrefType="topicref"/>
+         <topicProperties topicDoc="yes"
+                          topicType="concept"
+                          bodyType="conbody"
+                          format="concept"/>
+      </paragraphStyle>
+
+      <paragraphStyle styleName="Heading 4"
+                      structureType="topicTitle"
+                      tagName="title"
+                      topicZone="body"
+                      level="4">
          <topicrefProperties topicrefType="topicref"/>
          <topicProperties topicDoc="yes"
                           topicType="concept"
